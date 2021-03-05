@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body,html {
+	width: 100%;
+	height: 100%;
+}
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: '';
+	width: 0;
+	height: 0;
+	clear: both;
+	display: block;
+}
+/* 隐藏滚动条 */
+.hide-scroll::-webkit-scrollbar{
+	display: none;
+}
+i{
+	font-style: normal;
+}
